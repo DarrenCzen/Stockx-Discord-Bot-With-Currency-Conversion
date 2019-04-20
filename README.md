@@ -5,6 +5,9 @@ A StockX Discord Bot with Currency Conversion so that I dont need to use a curre
 PLEASE NOTE:
 Close bracket value is USD and not the price of the shoe after fees. Read the code if you do not understand.
 
+![Alt text](https://github.com/DarrenCzen/Stockx-Discord-Bot-With-Currency-Conversion/blob/master/stockxc.JPG)
+
+
 Adapted from:
 https://github.com/kxvxnc/Stockx-Discord-Bot
 Implemented with:
