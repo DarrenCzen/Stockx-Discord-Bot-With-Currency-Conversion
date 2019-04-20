@@ -6,8 +6,10 @@ PLEASE NOTE:
 Close bracket value is USD and not the price of the shoe after fees. Read the code if you do not understand.
 
 How to use:
+
 Install python, install packages
 Insert your discord token into the python script.
+
 Change the currencyConverted variable to your desired currency that you want to convert from USD.
 
 ![Alt text](https://github.com/DarrenCzen/Stockx-Discord-Bot-With-Currency-Conversion/blob/master/stockxc.JPG)
