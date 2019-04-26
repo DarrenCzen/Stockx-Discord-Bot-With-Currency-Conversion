@@ -55,7 +55,7 @@ async def sx(ctx, *args):
         sgdBid = int(c.convert(sizes[size]['market']['highestBid'], 'USD', convertedCurrency))
         usdValue = (int(sizes[size]['market']['highestBid']) * 0.875) - 30 
         sgdAfter = int(c.convert(usdValue, 'USD', convertedCurrency))
-        bidasks +=f"{sizes[size]['shoeSize']} | {convertedCurrency} {sgdAsk} ({sizes[size]['market']['lowestAsk']}) | {convertedCurrency} {sgdBid} ({sizes[size]['market']['highestBid']}) | {convertedCurrency} {sgdAfter} \n"
+        bidasks +=f"{sizes[size]['shoeSize']} | {convertedCurrency} {sgdAsk} | {convertedCurrency} {sgdBid} ({sizes[size]['market']['highestBid']}) | {convertedCurrency} {sgdAfter} \n"
 
     embed = discord.Embed(title='StockX Checker', color=0x13e79e)
     embed.set_thumbnail(url=results['thumbnail_url'])
