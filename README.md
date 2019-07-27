@@ -20,3 +20,6 @@ https://github.com/kxvxnc/Stockx-Discord-Bot
 
 Implemented with:
 https://github.com/alexprengere/currencyconverter
+
+Disclaimer:
+Does not work with some shoes as some of the shoes are using a new API.
